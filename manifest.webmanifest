@@ -1,0 +1,17 @@
+{
+  "id": "/loss-adjuster-formula-book-2026",
+  "name": "손해평가사 2차 공식집",
+  "short_name": "2차 공식집",
+  "description": "2026 기준서 순서로 정리한 127개 공식과 용어·기출 예시 학습",
+  "lang": "ko-KR",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f7f7",
+  "theme_color": "#123f46",
+  "icons": [
+    {"src":"./app-icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"./app-icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"},
+    {"src":"./app-icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}
+  ]
+}
