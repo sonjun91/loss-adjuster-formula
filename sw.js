@@ -1,4 +1,4 @@
-const CACHE_NAME='loss-adjuster-formulas-d9636dca667e';
+const CACHE_NAME='loss-adjuster-formulas-73a7a4a2abe3';
 const FILES=['./index.html','./manifest.webmanifest','./app-icon.svg','./app-icon-192.png','./app-icon-512.png'];
 self.addEventListener('install',event=>event.waitUntil(
   caches.open(CACHE_NAME).then(cache=>cache.addAll(FILES.map(file=>new Request(new URL(file,self.location.href),{cache:'reload'})))).then(()=>self.skipWaiting())
